@@ -9,3 +9,20 @@ body {
 footer{
     text-align: center;
 }
+
+.containers{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.containers>*{
+    display: flex;
+    flex: 0 0 33.3333%;
+}
+
+
+
+.cards>* {
+    flex: 0 0 33.3333%;
+}
