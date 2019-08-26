@@ -57,3 +57,16 @@ p.productDescription{
     flex: 1;
     justify-content: center;
 }
+
+.productAvailablity{
+    flex: 1;
+    justify-content: left; 
+    border: 1px solid grey;
+    background-color: grey;
+    color: yellow;
+}
+
+.productSizeWeight{
+    text-align: left; 
+    margin-left: 2em;
+}
