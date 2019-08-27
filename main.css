@@ -14,9 +14,10 @@ header.productHeader{
     border: 1px solid lightblue;
     justify-content: center;
     align-self: center;
-    width: 150px;
-    height: 100px;
+    width: auto;
+    height: auto;
     flex-wrap: wrap;
+    margin: 0%;
 }
 
 .containers{
@@ -25,33 +26,52 @@ header.productHeader{
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0;
+    margin: 1em;
+    
+}
+.productAvailablity{
+    flex: 1;
+    justify-content: stretch; 
+    border: 1px solid grey;
+    background-color: grey;
+    color: yellow;
+    height: fit-content;
 }
 .containers>*{
     display: flex;
-    flex: 3 3 33.3333%;
+    flex: 0 1 33.3333%;
 }
 .cards{
-    box-shadow: 0 8px 8px #000;
+    box-shadow: 2px 8px 8px #000;
+    margin: auto;
+
 }
 .cards{
     align-items: stretch;
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
-    
+}
+p{
+    margin: 0%;
 }
 
+h3{
+    margin-block: 0%;
+}
+
+h2{
+    margin-block: 0%;
+}
 .productImage{
     flex: 1;
     align-self: center;
 }
 img 
-    {min-width: 150px;
-    max-width: 150px;
-    height: 250px;
+    {width: 200px;
+    height: 200px;
     text-align: center;
-    margin: 5% auto;
+    margin: 2% auto;
     background-color: #ccc;
     flex: 1;
     
@@ -61,13 +81,6 @@ p.productDescription{
     justify-content: center;
 }
 
-.productAvailablity{
-    flex: 1;
-    justify-content: left; 
-    border: 1px solid grey;
-    background-color: grey;
-    color: yellow;
-}
 
 .productSizeWeight{
     text-align: left; 
@@ -76,7 +89,7 @@ p.productDescription{
 
 .pricing{
     text-align: left; 
-    margin-left: em;
+    margin: 0;
 }
 
 .productPriceQuantity{
