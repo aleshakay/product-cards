@@ -7,6 +7,7 @@ The site utilizes Containers
 
 # Screenshots
 
+![Main View](https://github.com/aleshakay/product-cards/blob/master/screenshots/Screen%20Shot%202019-10-01%20at%2015.02.38.png)
 
 
 # How to Run
